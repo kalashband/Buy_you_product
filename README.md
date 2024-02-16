@@ -15,7 +15,7 @@ Built Web page That help to display Product Detail.
 - Add to cart button message 
   Description
 
- **Tech-Stack**
+ ### Tech-Stack
  Create Web page Using Javascripy , HTML , Pure CSS.
 
 

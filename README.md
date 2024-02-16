@@ -1,4 +1,5 @@
 ## Buy Your Product 
+[Click Here](https://buy-your-product-lovat.vercel.app/)
 
 Built Web page That help to display Product Detail.
 
@@ -15,8 +16,11 @@ Built Web page That help to display Product Detail.
 - Add to cart button message 
   Description
 
+ ### Tech-Stack
+ Create Web page Using Javascripy , HTML , Pure CSS.
 
-3. **Explore the Structure:**
+
+ **Explore the Structure:**
 Take a moment to review the project structure:
 
         project-root/
@@ -29,7 +33,3 @@ Take a moment to review the project structure:
 - `script.js`: JavaScript file for scripting logic.
 - `README.md`: Documentation for your project.
   
-
-
-
- 

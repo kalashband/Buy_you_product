@@ -93,6 +93,7 @@ const fetchData = async (url) => {
     // Each size display 
     let selectedButton = null;
     let selectedButtonValue = null;
+
     size_box.forEach((sizeObj) => {
         const sizeName = Object.keys(sizeObj)[0];
         const sizeValue = sizeObj[sizeName];
@@ -119,11 +120,11 @@ const fetchData = async (url) => {
     const cartMessage = document.getElementById('cartMessage');
 
     addToCartButton.addEventListener('click', function () {
-        if (selectedButtonColor && selectedButtonValue) {
+        if (selectedButtonColor && selectedButtonValue && counterValue >=1) {
             cartMessage.textContent = `Embrace Sideboard with Color ${selectedButtonColor} and Size ${selectedButtonValue} added to cart`;
             cartMessage.style.display = 'block';
         } else {
-            alert('Please select color and size before adding to cart.');
+            alert('Please select Quantity, Color and Size before adding to cart.');
         }
     });
 
